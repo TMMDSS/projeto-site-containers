@@ -24,8 +24,12 @@
 .principal {
     padding: 20px 30px 20px 30px;
     display: grid;
-    grid-template-columns: .5fr 1fr 1fr;
+    grid-template-columns: .5fr 1.5fr 1fr;
+    
     margin: auto;
+}
+.subtitulo {
+
 }
 
 .lorem {
@@ -34,29 +38,23 @@
 }
 
 .imagens {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: flex-start;
+    display: inline;
 
+    
 
 }
 
 .section {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: rgb(32, 25, 1);
     color: wheat;
 }
 
 .section > .logos {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
+    padding: 0px 5px ;
 }
 
 .principal > .section > .logos > img {
-    margin-right: 30px;
+    
 }

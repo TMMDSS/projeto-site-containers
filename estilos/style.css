@@ -42,7 +42,7 @@
 
 }
 
-.aside {
+.section {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -50,13 +50,13 @@
     color: wheat;
 }
 
-.aside > .logos {
+.section > .logos {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px;
 }
 
-.principal > .aside > .logos > img {
+.principal > .section > .logos > img {
     margin-right: 30px;
 }

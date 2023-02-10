@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.cabeçalho {
+    background-image: url(../imagens/main-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: grid;
+    align-items: center;
+    padding-left: 30px;
+} 
+
+.titulo {
+    color: white;
+    width: 300px;
+    font-size: 4.5em;
+}
+
+/*main*/
+.principal {
+    padding: 20px 30px 20px 30px;
+    display: grid;
+    grid-template-columns: .5fr 1fr 1fr;
+    margin: auto;
+}
+
+.lorem {
+    grid-row-start: 1;
+    width: 200px;
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+
+
+}
+
+.aside {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgb(32, 25, 1);
+    color: wheat;
+}
+
+.aside > .logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.principal > .aside > .logos > img {
+    margin-right: 30px;
+}

@@ -22,39 +22,40 @@
 
 /*main*/
 .principal {
-    padding: 20px 30px 20px 30px;
     display: grid;
     grid-template-columns: .5fr 1.5fr 1fr;
-    
     margin: auto;
-}
-.subtitulo {
-
+    padding: 20px;
 }
 
 .lorem {
-    grid-row-start: 1;
-    width: 200px;
+  
 }
 
 .imagens {
-    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: first baseline;
 
-    
 
+}
+
+.alado {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+
+}
+
+.alado-img {
+    margin: 0px 10px 0px 0px;
 }
 
 .section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: rgb(32, 25, 1);
-    color: wheat;
+    background-color: rgb(56, 54, 53);
+    color: red;
+    padding: 55px;
 }
 
-.section > .logos {
-    padding: 0px 5px ;
-}
-
-.principal > .section > .logos > img {
-    
-}

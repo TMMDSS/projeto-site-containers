@@ -55,7 +55,11 @@
 
 .section {
     background-color: rgb(56, 54, 53);
-    color: red;
-    padding: 55px;
+    color: rgb(230, 222, 178);
+    padding: 10px;
+}
+
+.logos {
+    padding: 30px;
 }
 

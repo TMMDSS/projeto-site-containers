@@ -1,7 +1,9 @@
 * {
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
     border: 0;
+
 }
 
 .cabeçalho {
@@ -28,14 +30,11 @@
     padding: 20px;
 }
 
-.lorem {
-  max-width: 150px;
+.lorem > p {
+ max-width: 150px;
+display: flex;
 }
 
-.imagens {
-    
-
-}
 
 .section {
     background-color: rgb(56, 54, 53);

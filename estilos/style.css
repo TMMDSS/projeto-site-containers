@@ -29,16 +29,11 @@
 }
 
 .lorem {
-  max-width: 100px;
+  max-width: 150px;
 }
 
 .imagens {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: baseline;
-
+    
 
 }
 

@@ -30,10 +30,22 @@
     padding: 20px;
 }
 
-.lorem > p {
- max-width: 150px;
-display: flex;
+.lorem {
+    background-color: red;
+
 }
+
+.lorem > p {
+    display: inline-block;
+    width: 25%;
+}
+
+.imagens {
+    display: inline-block;
+    
+}
+
+
 
 
 .section {

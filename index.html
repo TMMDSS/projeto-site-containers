@@ -1,0 +1,87 @@
+<html>
+
+<style>
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4);
+    grid-template-rows: repeat(5);
+    grid-auto-rows: 100px;
+  }
+
+  .box1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    background-color: aqua;
+  }
+
+  .box2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: yellow;
+  }
+
+  .box3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: blue;
+  }
+
+  .box4 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: brown;
+  }
+
+  .box5 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    background-color: green;
+  }
+
+  .box6 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    background-color: gray;
+  }
+
+  .box7 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    background-color: slateblue;
+  }
+
+  .box8 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: black;
+  }
+</style>
+
+<body>
+  <div class="wrapper">
+    <div class="box1">One</div>
+    <div class="box2">Two</div>
+    <div class="box3">Three</div>
+    <div class="box4">Four</div>
+    <div class="box5">Five</div>
+    <div class="box6">Six</div>
+    <div class="box7">Seven</div>
+    <div class="box8">Eight</div>
+  </div>
+</body>

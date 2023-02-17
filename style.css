@@ -12,8 +12,7 @@ html {
 
 header {
   width: 100vw;
-  height: 100vh;
-  max-height: 50vh;
+  height: 50vh;
   background-color: red;
 }
 
@@ -22,7 +21,7 @@ h1 {
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 1;
-  font-size: 1rem;
+  font-size: 1em;
   background-color: chocolate;
 }
 

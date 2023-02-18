@@ -1,9 +1,8 @@
-html {
+@charset 'utf-8';
+* {
   margin: 0%;
   padding: 0%;
   border: 0%;
-  background: #dddddd;
-  color: #000;
   font-family: 'inter', sans-serif;
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -12,22 +11,39 @@ html {
 
 header {
   width: 100vw;
-  height: 50vh;
-  background-color: red;
+  height: 70vh;
+  background-image: url(imagens/main-banner.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
 }
 
-h1 {
+header > h1 {
+  padding-left: 25px;
+  font-size: 4em;
+  width: 450px;
+  color: white;
+}
+
+
+
+h2 {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 1;
-  font-size: 1em;
   background-color: chocolate;
+
+  display: flex;
+  align-items: center;
 }
 
 .wrapper {
   display: grid;
   grid-auto-rows: 100px;
+
 }
 
 .box1 {
@@ -35,8 +51,11 @@ h1 {
   grid-column-end: 1;
   grid-row-start: 2;
   grid-row-end: 7;
-  background-color: aqua;
+  text-align: right;
+  width: auto;
+  background-color: red;
 }
+
 
 .box2 {
   grid-column-start: 2;

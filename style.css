@@ -159,10 +159,6 @@ h2 {
   height: 64px;
 }
 
-.texto {
-  height: 100px;
-  width: auto;
-}
 
 .caixa1 {
   grid-column-start: 1;

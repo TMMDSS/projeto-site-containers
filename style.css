@@ -54,8 +54,9 @@ h2 {
 
 .wrapper {
   gap: 1rem;
+
   width: 98vw;
-  margin: 0% 1%;
+  margin: 0% 1% 2% 1%;
   display: grid;
   grid-auto-columns: 250px;
 }
@@ -103,14 +104,14 @@ h2 {
   grid-row-start: 3;
   grid-row-end: 3;
   background-color: green !important;
-  width: 50%;
+
 }
 
 .box6 {
-  grid-column-start: 3;
+  grid-column-start: 2;
   grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
   background-color: gray !important;
 }
 
@@ -152,15 +153,32 @@ h2 {
   height: 60vh;
 }
 
+.subtitulo {
+  margin: 100px 0px;
+  font-size: 1.5em;
+  width: 400px;
+  height: 50px;
+  z-index: 100;
+  color: white;
+  text-decoration: none;
+  text-shadow: 0px 0px 5px black;
+}
+
+span {
+  color: yellow;
+}
+
+
 .logos {
-  position: relative;
-  left: 50%;
   width: 64px;
   height: 64px;
+  margin-bottom: 72px;
+  margin-left: 135px;
 }
 
 
 .caixa1 {
+  display: grid;
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 2;
@@ -168,6 +186,7 @@ h2 {
 }
 
 .caixa2 {
+  display: grid;
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 2;
@@ -175,6 +194,7 @@ h2 {
 }
 
 .caixa3 {
+  display: grid;
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 3;
@@ -182,6 +202,7 @@ h2 {
 }
 
 .caixa4 {
+  display: grid;
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 3;
@@ -189,6 +210,7 @@ h2 {
 }
 
 .caixa5 {
+  display: grid;
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 4;
@@ -196,6 +218,7 @@ h2 {
 }
 
 .caixa6 {
+  display: grid;
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 4;
@@ -203,6 +226,7 @@ h2 {
 }
 
 .caixa7 {
+  display: grid;
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 5;
@@ -210,8 +234,15 @@ h2 {
 }
 
 .caixa8 {
+  display: grid;
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 5;
   grid-row-end: 5;
+}
+
+.grid {
+  display: grid;
+  align-items: end;
+
 }
